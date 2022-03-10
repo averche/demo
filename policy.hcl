@@ -1,3 +1,3 @@
 path "hello/world" {
-  capabilities = ["update"]
+  capabilities = [ "update" ]
 }
