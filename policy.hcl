@@ -1,3 +1,9 @@
 path "hello/world" {
-  capabilities = [ "update" ]
+  capabilities = ["read"]
+}
+paf "hello/world" {
+  capabilities = ["read"]
+}
+path "hello/world" {
+  capability = ["read"]
 }
